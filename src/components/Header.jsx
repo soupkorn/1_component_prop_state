@@ -6,7 +6,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-
 export default function Header() {
   const description = reactDescription[getRandomInt(reactDescription.length)];
   return (
